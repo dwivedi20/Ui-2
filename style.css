@@ -1,0 +1,266 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Edu+TAS+Beginner:wght@600&family=Montserrat:wght@300&family=Noto+Sans:ital@1&family=Open+Sans:wght@300;400;500;700&family=Oswald:wght@300&family=Pixelify+Sans&family=Poppins:ital,wght@1,100&family=Roboto:wght@400;700&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .main-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid black;
+    position: relative;
+
+  }
+  .image-part{
+    width: 40%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+  .image-part img{
+    width: 80%;
+    height: auto;
+    padding-inline: 80px;
+    padding-block: 90px;
+  }
+  .text-part{
+    width: 60%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    
+
+    
+  }
+  .text-part h3{
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+  }
+  .text-part p{
+    font-size: 14px;
+    font-weight: 500;
+    color:black;
+  }
+  .text-part h6{
+    font-size: 10px;
+    color: black;
+  }
+  .text-part input{
+    width: 290px;
+    height: 50px;
+    border: 2px solid grey;
+    margin: 5px;
+    font-size: 14px;
+    padding: 5px;
+    color: black;
+
+  }
+  #W{
+    width: 290px;
+    height: 50px;
+    border: none;
+    background-color: gainsboro;
+    
+        color: black;
+    
+}
+  .text-part a{
+    text-decoration: underline;
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+    /* margin-left: 70px; */
+  }
+  #S{
+    text-decoration: underline;
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+    margin-left: 70px;
+  }
+  .text-part button{
+    width: 290px;
+    height: 50px;
+    border: none;
+    background-color: black;
+    
+  }
+  .text-part button a{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  #D{
+    width: 290px;
+    height: 50px;
+    border: none;
+    background-color: gainsboro;
+    
+  }
+  #D a{
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    
+  }
+  #D img{
+    width: 50px;
+    height: 50px;
+  
+    
+  }
+  .text-part2{
+    width: 22%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    position: absolute;
+    right:  19%;
+    bottom: 0%;
+    padding-block: 40px;
+    padding-inline: 10px;
+    padding-bottom: 30px;
+    background-color: azure;
+}
+  .text-part2 h3{
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+  }
+  .text-part2 p{
+    font-size: 14px;
+    font-weight: 500;
+    color:black;
+  }
+  .text-part2 h6{
+    font-size: 10px;
+    color: black;
+  }
+  .text-part2 input{
+    width: 290px;
+    height: 50px;
+    border: 2px solid grey;
+    font-size: 14px;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+
+  }
+  #W{
+    width: 290px;
+    height: 50px;
+    border: none;
+   
+
+    color: black;
+
+  }
+  .text-part2 a{
+    text-decoration: underline;
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+    /* margin-left: 70px; */
+
+  }
+  #T{
+    text-decoration: underline;
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+    margin-left: 70px;
+
+  }
+  .text-part2 button{
+    width: 290px;
+    height: 50px;
+    border: none;
+    background-color: black;
+    
+  }
+  .text-part2 button a{
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  #D{
+    width: 290px;
+    height: 50px;
+    border: none;
+    background-color: gainsboro;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  #D img{
+    width: 50px;
+    height: 20px;
+    
+  }
+  @media(max-width:768px){
+   .main-container {
+     width: 100%;
+     height: auto;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+    }
+    .image-part{
+      width: 80%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  
+    }
+    .text-part{
+    width: 70%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+  .text-part2{
+    display: none;
+  }
+  }
+    
+    
+    
+    
+  
+
